@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(47, 44, 44);
+        }
+
+        .card {
+            background-color: aliceblue;
+            position: relative;
+            margin: auto;
+            width: 600px;
+            height: 840px;
+            border-radius: 10px;
+        }
+
+        .image {
+            padding: 10px;
+        }
+
+        .image img {
+            border-radius: 10px;
+        }
+
+        .head {
+            font-family: "Poppins", system-ui;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 30px;
+            word-spacing: 1.5;
+            padding: 12px;
+        }
+
+        .container>ul {
+            font-family: "Poppins", system-ui;
+            list-style: none;
+            display: flex;
+            margin: 5px;
+            padding: 5px;
+            padding-inline: 10px;
+        }
+
+        .container>ul>li {
+            padding-inline: 10px;
+            padding-block: 2px;
+            outline: 1px solid rgb(132, 126, 126);
+            outline-offset: -5px;
+            border-radius: 10px;
+            color: gray;
+        }
+
+        .content {
+            padding: 10px;
+            font-family: "Poppins", system-ui;
+            padding: 12px;
+        }
+
+        .foot {
+            font-family: "Poppins", system-ui;
+            position: absolute;
+            top: 790px;
+            left: 230px;
+            background-color: lightblue;
+            text-align: center;
+            border: 2px solid lightblue;
+            border-radius: 10px;
+            margin: 2px;
+            padding: 3px;
+            outline: lightblue;
+            color: rgb(45, 45, 159);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="580" height="450" src="venalake.jpg" alt="Boats">
+        </div>
+        <div class="container">
+            <ul>
+                <li>Nature</li>
+                <li>Lake</li>
+            </ul>
+
+        </div>
+        <div class="head">
+            <p>Vena Lake</p>
+        </div>
+        <div class="content">
+            <p>Venna Lake is one of the tourist attractions of Mahabaleshwar in Maharashtra state in India. The lake was
+                constructed by Shri Appasaheb Maharaj, who was King of Satara in 1842.</p>
+
+            <p>The lake is surrounded by trees. Tourists can enjoy a boat ride over the lake or a horse ride next to
+                the lake. A number of small eateries line the banks of the lake. The Mahabaleshwar city market and the
+                S.T. bus stand is about 2 km from the lake.</p>
+        </div>
+        <div class="foot">
+            <p>Read More</p>
+        </div>
+    </div>
+</body>
+
+</html>
